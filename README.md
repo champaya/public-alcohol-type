@@ -1,13 +1,34 @@
-**サービスのURL**  
+**サービスURL**  
 https://app.alcohol-type.com  
+
   
 **サービス概要**  
 質問に答えていくだけで、回答者のイメージをお酒で表現してくれるサービスです。  
 診断タイプは全部で16タイプとなっております。  
-
-**画面**
+どうせならば「人を楽しませられるポートフォリオを」と思い、コンテンツを考えました。  
   
-**システム構成図**
+**画面**  
+メインの動線となる画面は以下4画面です。  
+質問画面⇒診断結果画面⇒診断結果詳細画面⇒すべての診断結果画面へと遷移します。  
+  
+* 質問画面（トップ）
+<kbd><img alt="質問画面" src="https://github.com/champaya/public-alcohol-type/assets/159685650/8079b847-6d83-483a-87a7-cacb9dd168c0"></kbd>
+  
+* 診断結果画面  
+<kbd><img src="https://github.com/champaya/public-alcohol-type/assets/159685650/14195476-c335-423d-9c55-ddbfb2505c20"></kbd>
+  
+* 診断結果詳細画面  
+<kbd><img src="https://github.com/champaya/public-alcohol-type/assets/159685650/e8979d30-feba-4c52-9634-82c729f6f2b0"></kbd>
+  
+* すべての診断結果画面  
+<kbd><img src="https://github.com/champaya/public-alcohol-type/assets/159685650/0df8689c-4e31-4f2f-baf8-89effb52905e"></kbd>
+  
+  
+**システム構成図**   
+当サービスのシステム構成は以下となっております。  
+さらに詳しい情報はサービスのフッター部ボタン「システムについて」をご覧ください。
+<img alt="architecture" src="https://github.com/champaya/public-alcohol-type/assets/159685650/a7ca1148-b9d4-4881-9db9-bd87dbb48d44">
+
   
 **使用技術**  
 | カテゴリ  | 技術スタック |
@@ -17,6 +38,7 @@ https://app.alcohol-type.com
 | DB  | My SQL  |
 | インフラ  | AWS  |
 | etc.  | Git, VS Code, Intejij, DBeaver  |
+
   
 **改善点**  
 1. レスポンシブデザインの精緻化  
